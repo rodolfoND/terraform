@@ -9,7 +9,6 @@ resource "aws_vpc" "this" {
   )
 }
 
-# Internet Gateway.
 resource "aws_internet_gateway" "this" {
   vpc_id = aws_vpc.this.id
 
@@ -21,7 +20,6 @@ resource "aws_internet_gateway" "this" {
   )
 }
 
-# Rotas.
 resource "aws_route" "this" {
   route_table_id         = aws_vpc.this.main_route_table_id
   destination_cidr_block = "0.0.0.0/0"
@@ -32,7 +30,6 @@ data "aws_availability_zones" "available" {
   state = "available"
 }
 
-# Subrede
 resource "aws_subnet" "this" {
   vpc_id                  = aws_vpc.this.id
   cidr_block              = "10.0.1.0/24"
