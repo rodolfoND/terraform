@@ -1,0 +1,5 @@
+*gerar readme terraform
+terraform-docs markdown table --output-file README.md --output-mode inject .
+
+*calcular valor a ser gasto
+.\infracost breakdown --path .

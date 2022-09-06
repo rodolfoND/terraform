@@ -1,7 +1,10 @@
 resource "aws_efs_file_system" "this" {
-  creation_token = "my-product"
+  creation_token = "trabalho-efs"
 
-  tags = {
-    Name = "MyProduct"
-  }
+  tags = merge(
+    local.common_tags,
+    {
+      Name = "${local.prefix}-efs"
+    }
+  )
 }
