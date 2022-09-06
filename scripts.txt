@@ -3,3 +3,22 @@ terraform-docs markdown table --output-file README.md --output-mode inject .
 
 *calcular valor a ser gasto
 .\infracost breakdown --path .
+
+*conectar maquina ssh
+ssh -i id_rsa ubuntu@ip
+
+*formatar terraform
+.\terraform fmt
+
+*instalar utils efs ec2
+sudo apt-get update
+sudo apt-get -y install git binutils
+git clone https://github.com/aws/efs-utils
+cd /path/efs-utils
+./build-deb.sh
+sudo apt-get -y install ./build/amazon-efs-utils*deb
+
+
+*instalar progrmas no ec2
+apt-get install -y curl wget
+curl -fsSL https://get.docker.com | bash
