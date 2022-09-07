@@ -5,7 +5,7 @@ terraform-docs markdown table --output-file README.md --output-mode inject .
 .\infracost breakdown --path .
 
 *conectar maquina ssh
-ssh -i id_rsa ubuntu@ip
+ssh -i id_rsa ubuntu@3.95.199.78
 
 *formatar terraform
 .\terraform fmt
@@ -18,7 +18,15 @@ cd /path/efs-utils
 ./build-deb.sh
 sudo apt-get -y install ./build/amazon-efs-utils*deb
 
-
 *instalar progrmas no ec2
 apt-get install -y curl wget
 curl -fsSL https://get.docker.com | bash
+
+*listar discos ec2
+df -h
+
+*docker
+docker build -f Dockerfile -t terraform .
+docker run -d -p 8080:80 terraform
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
