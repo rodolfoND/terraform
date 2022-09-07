@@ -1,5 +1,14 @@
-# terraform
-Terraform Readme
+# Terraform
+Rodolfo Nascimento Dimas
+<br>
+Arquitetura de Soluções
+<br>
+PUC-MG - 09/2022
+
+## Custos estimados do projeto
+<p align="center">
+  <img src="./images/infracost.png" title="infracost">
+</p>
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
