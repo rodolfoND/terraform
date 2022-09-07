@@ -59,3 +59,50 @@ No modules.
 
 No outputs.
 <!-- END_TF_DOCS -->
+<br>
+<br>
+
+# Evidências Funcionamento
+## Site em funcionamento
+<p align="center">
+  <img src="./images/running site.png" title="siteFuncionando">
+  <img src="./images/site url.png" title="urlSite">
+</p>
+<br>
+<br>
+
+## EC2
+<p align="center">
+  <img src="./images/ec2.png" title="ec2">
+  <img src="./images/ec2 details.png" title="detalhesEC2">
+</p>
+<br>
+<br>
+
+## Detalhes dentro da instância
+<p align="center">
+  <img src="./images/docker images.png" title="dockerImages">
+  <img src="./images/efs inside ec2.png" title="EFS">
+</p>
+<br>
+<br>
+
+## S3
+<p align="center">
+  <img src="./images/s3.png" title="s3">
+  <img src="./images/s3 detail.png" title="s3Detalhes">
+</p>
+<br>
+<br>
+
+## EFS
+<p align="center">
+  <img src="./images/efs.png" title="efs">
+</p>
+<br>
+<br>
+
+## Terraform destroy
+<p align="center">
+  <img src="./images/kill terraform.png" title="destroy">
+</p>
