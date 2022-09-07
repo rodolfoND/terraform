@@ -1,5 +1,0 @@
-aws_profile       = "terraform"
-aws_region        = "us-east-1"
-prefix            = "trabalho"
-aws_instance_type = "t2.micro"
-aws_public_key    = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+ZHHJgd5a3H8YPgWE01UMYSC3x6BO2/gyMIvKEuswI7Gf4YpXfppKDOsFEadI5rOhAN7EcDCfJFILRaxePRPeMS+QhUY81IGGXW9a9D1I5BVgb1YwIo8B79C6NG3//lKPXSLodOKv0r9WN1p4IYFp0yerCK21+y5lxpkeIf5F0OfbjolJDS+sGS8hcWorgwwmj5HuS9dacZ2s/xQjrbw8AlvH6E1OoskQVwPG4EceLA+UKkcGfiRkEGYr51vWtObbDIu5Fb8KMp5H6NLF6AUc5EDUk6q1pGNkUBxjl5OP3KhF1vohpkOqA4cUzYaYaHzn0TrmAEOQl3yIaWC6YeE3fSdf/mj2ZmtZwg6WGQhASXa8mnzpnngRK6GVCo+Ep6kVGptQTp9rC5YmlQ+7uemfXzzGGbByzV15QwThIiy5dk1ZLsn7mLBA8ufBYHvVl5K8/e6/NEYk+GqGLC6DLi7GQxIWVt8dgwjitvbXDVva55etLkdgdQgUHtSRWt/tDAc="
