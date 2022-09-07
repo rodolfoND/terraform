@@ -1,5 +1,5 @@
 terraform.exe
 .terraform
-.terraform.tfvars
+terraform.tfvars
 infracost.exe
 .infracost
