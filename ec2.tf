@@ -21,6 +21,18 @@ resource "aws_instance" "this" {
 
   vpc_security_group_ids = [aws_security_group.sg-web.id]
   subnet_id              = aws_subnet.this.id
+
+  user_data = <<EOF
+#!/bin/bash
+apt-get update
+apt-get install -y curl wget git binutils
+curl -fsSL https://get.docker.com | bash
+git clone https://github.com/aws/efs-utils
+cd /efs-utils
+./build-deb.sh
+sudo apt-get -y install ./build/amazon-efs-utils*deb
+EOF
+
   tags = merge(
     local.common_tags,
     {
